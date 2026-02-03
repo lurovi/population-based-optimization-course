@@ -8,7 +8,7 @@ The course is 20 hours and it is 2.5 CFU.
 
 The final evaluation can be completed through one of the following three options.
 
-**Option 1 – Oral Presentation**
+### Option 1 – Oral Presentation
 
 A 10-minute presentation with slides of a scientific paper of your choice related to the topics of the course, namely, evolutionary computation and evolutionary algorithms. Conferences such as EvoStar, PPSN, and GECCO (this latter one has PDF freely available: https://dl.acm.org/conference/gecco/proceedings) can be used as references to identify suitable papers. Below a list of some papers that could be presented (mostly from GECCO, since they are typically shorter than journal papers and PDF are available for free):
 
@@ -60,13 +60,13 @@ A 10-minute presentation with slides of a scientific paper of your choice relate
 
 Day and time of the presentation must be agreed with us via email and the presentation can be done remotely.
 
-**Option 2 – Project**
+### Option 2 – Project
 
 The project consists of a small experimental study in which you design, implement, and analyze an evolutionary algorithm applied to a non-trivial optimization problem.
 
 More specifically, the project should include the following components:
 
-Problem selection
+**Problem selection**
 
 Choose a non-trivial single-objective optimization problem, i.e., a problem for which discovering the exact optimal solution, according to a single criterion, is not straightforward.
 Examples include (but are not limited to):
@@ -81,23 +81,23 @@ Examples include (but are not limited to):
 
 - simple control or design problems.
 
-Algorithm implementation
+**Algorithm implementation**
 
 Implement an evolutionary algorithm from scratch (including existing algorithms such as Genetic Algorithms, Evolution Strategies, Genetic Programming, Particle Swarm Optimization, Differential Evolution, etc.) to address the chosen problem. Each individual evolved by the algorithm represents a solution to the problem, and the fitness function must compute the quality of the given solution.
 
-Experimental evaluation
+**Experimental evaluation**
 
 Run the evolutionary algorithm for multiple independent repetitions (e.g., 10 repetitions; in the literature this number is often 30), using different random seeds.
 
-Baseline comparison
+**Baseline comparison**
 
-Compare the evolutionary algorithm against a simple baseline (to be executed for multiple independent repetitions as well, the same number of repetitions employed for the evolutionary algorithm), such as, random search or simulated annealing.
+Compare the evolutionary algorithm against a simple baseline (to be executed for multiple independent repetitions as well, the same number of repetitions employed for the evolutionary algorithm), such as, random search or simulated annealing. The computational budget employed should always be the same (e.g., if you run an evolutionary algorithm for 10 generations with a population size of 100, then you are likely going to compute 1000 fitness evaluations, this should be compared with a random search/simulated annealing consisting of 1000 iterations to ensure fairness and soundness).
 
-Results analysis
+**Results analysis**
 
-Discuss and compare the quality of the solutions obtained by the evolutionary algorithm and the baseline method, possibly supported by visualizations (e.g., box-plot, fitness trend) and a statistical test (e.g., Mann-Whitney U).
+Discuss and compare the quality of the solutions obtained by the evolutionary algorithm and the baseline method, possibly supported by visualizations (e.g., box-plot, fitness trend) and a statistical test (e.g., Mann-Whitney U, Holm-Bonferroni correction).
 
-Ablation study
+**Ablation study**
 
 Perform an ablation study by analyzing how changes in one or more hyper-parameters affect performance.
 Examples include:
@@ -110,13 +110,19 @@ Examples include:
 
 - selection pressure (e.g., tournament size in case of tournament selection).
 
-Final report
+**Final report**
 
 Collect the code, plots, and written observations resulting from the analysis in an HTML/PDF report generated from a Jupyter notebook, which must be sent to us via email for evaluation.
 
-A complete example of project targeting the OneMax problem with Genetic Algorithms will be provided.
+Examples of projects are provided as notebooks in the 'example_projects' folder.
 
-**Option 3 – Paper**
+The aforementioned structure is a standard pipeline for an evolutionary algorithms-related project. However, if you have another type of project in mind that you would like to explore (e.g., multi-objective optimization, analytical analysis), feel free to propose your idea to us and we will let you know whether it is suitable as a project.
 
-You publish a paper related to something concerning evolutionary computation and you send to us via email the DOI of the published paper.
+### Option 3 - Report/Survey
+
+You write a short report/survey (max 4 pages excluding references) in which you describe a specific topic concerning evolutionary computation and you perform a literature review on the papers related to that topic in a structured way. Examples of topics are: Boolean functions optimization with evolutionary algorithms, evolutionary computation for interpretable machine learning or reinforcement learning, evolutionary algorithms to address control or design problems, mathematical analysis of evolutionary algorithms, evolutionary algorithms applied to artificial life. The report must be sent to us via email for evaluation.
+
+### Option 4 – Paper
+
+You publish a paper related to something concerning evolutionary computation or in which you apply evolutionary algorithms to solve a given task and you send to us via email the DOI of the published paper for evaluation.
 
