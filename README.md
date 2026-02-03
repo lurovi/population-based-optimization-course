@@ -1,12 +1,14 @@
-# Population-based Optimization Algorithms Course
+# Population-based Optimization Methods Course
 
 University of Trieste, "Applied Data Science and Artificial Intelligence" PhD program.
 
 The course is 20 hours and it is 2.5 CFU.
 
+The course “Population-based Optimization Methods” focuses on a collection of methods, generally inspired by natural phenomena, used for optimization and where multiple solutions to the same problems are iteratively improved. In this course we will explore genetic algorithms, genetic programming, evolution strategies, particle swarm optimization, differential evolution, how to represent particular problem domains (e.g., graphs and permutations), neuroevolution, common parallelization techniques, and a brief introduction to the runtime analysis of bio-inspired algorithms.
+
 ## Exam Modalities
 
-The final evaluation can be completed through one of the following three options.
+The final evaluation can be completed through one of the following four options.
 
 ### Option 1 – Oral Presentation
 
