@@ -77,6 +77,8 @@ Examples include (but are not limited to):
 
 - continuous function optimization,
 
+- deceptive problems,
+
 - hyper-parameter optimization,
 
 - symbolic regression,
@@ -116,9 +118,9 @@ Examples include:
 
 Collect the code, plots, and written observations resulting from the analysis in an HTML/PDF report generated from a Jupyter notebook, which must be sent to us via email for evaluation.
 
-Examples of projects are provided as notebooks in the 'example_projects' folder.
+Examples of projects running Python 3.12 (requirements are provided as well) are available as notebooks with the corresponding HTML files in the 'example_projects' folder.
 
-The aforementioned structure is a standard pipeline for an evolutionary algorithms-related project. However, if you have another type of project in mind that you would like to explore (e.g., multi-objective optimization, analytical analysis), feel free to propose your idea to us and we will let you know whether it is suitable as a project.
+The aforementioned structure is a standard pipeline for an evolutionary algorithms-related project. However, if you have another type of practical project in mind that you would like to explore (e.g., multi-objective optimization, analytical analysis), feel free to propose your idea to us and we will let you know whether it is suitable as a project.
 
 ### Option 3 - Report/Survey
 
