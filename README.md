@@ -12,7 +12,7 @@ The final evaluation can be completed through one of the following four options.
 
 ### Option 1 – Oral Presentation
 
-A 10-minute presentation with slides of a scientific paper of your choice related to the topics of the course, namely, evolutionary computation and evolutionary algorithms. Conferences such as EvoStar, PPSN, and GECCO (this latter one has PDF freely available: https://dl.acm.org/conference/gecco/proceedings) can be used as references to identify suitable papers. Below a list of some papers that could be presented (mostly from GECCO, since they are typically shorter than journal papers and PDF are available for free):
+A 10/15 minutes presentation with slides of a scientific paper of your choice related to the topics of the course, namely, evolutionary computation and evolutionary algorithms. Conferences such as EvoStar, PPSN, and GECCO (this latter one has PDF freely available: https://dl.acm.org/conference/gecco/proceedings) can be used as references to identify suitable papers. Below a list of some papers that could be presented (mostly from GECCO, since they are typically shorter than journal papers and PDF are available for free):
 
 - https://doi.org/10.1016/j.swevo.2020.100646 
 
@@ -124,7 +124,7 @@ The aforementioned structure is a standard pipeline for an evolutionary algorith
 
 ### Option 3 - Report/Survey
 
-You write a short report/survey (max 4 pages excluding references) in which you describe a specific topic concerning evolutionary computation and you perform a literature review on the papers related to that topic in a structured way. Examples of topics are: Boolean functions optimization with evolutionary algorithms, evolutionary computation for interpretable machine learning or reinforcement learning, evolutionary algorithms to address control or design problems, mathematical analysis of evolutionary algorithms, evolutionary algorithms applied to artificial life. The report must be sent to us via email for evaluation.
+You write a short report/survey (max 5 pages excluding references) in which you describe a specific topic concerning evolutionary computation and you perform a literature review on the papers related to that topic in a structured way. Examples of topics are: Boolean functions optimization with evolutionary algorithms, evolutionary computation for interpretable machine learning or reinforcement learning, evolutionary algorithms to address control or design problems, mathematical analysis of evolutionary algorithms, evolutionary algorithms applied to artificial life. The report must be sent to us via email for evaluation. You can use whatever template you want. An example of Overleaf LaTeX template is available at [https://overleaf.com/latex/templates/springer-nature-latex-template/myxmhdsbzkyd](https://overleaf.com/latex/templates/springer-nature-latex-template/myxmhdsbzkyd).
 
 ### Option 4 – Paper
 
